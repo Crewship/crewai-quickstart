@@ -4,8 +4,7 @@ version = "0.1.0"
 description = "A ready-to-deploy CrewAI research crew for Crewship. Clone, set your key, deploy."
 requires-python = ">=3.11,<3.14"
 dependencies = [
-    "crewai>=0.108.0",
-    "crewship>=0.1.0",
+    "crewai>=0.80.0",
 ]
 
 [build-system]
