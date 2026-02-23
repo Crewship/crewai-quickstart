@@ -7,7 +7,7 @@ A ready-to-deploy CrewAI research crew. Clone it, set your key, deploy — done.
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/vhalasi/crewship-quickstart.git
+git clone https://github.com/vhalasi/crewai-quickstart.git
 cd crewship-quickstart
 pip install crewship
 crewai install
