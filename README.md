@@ -9,8 +9,8 @@ A ready-to-deploy CrewAI research crew. Clone it, set your key, deploy — done.
 ```bash
 git clone https://github.com/Crewship/crewai-quickstart.git
 cd crewai-quickstart
-pip install crewship
-crewai install
+# Install the Crewship CLI tool
+curl -fsSL crewship.dev/install | bash
 ```
 
 ### 2. Set your API key
@@ -44,7 +44,6 @@ The default topic is *"AI agents in production"*. Change it in `src/crewship_qui
 
 ```bash
 cp .env.example .env          # add your OPENAI_API_KEY
-crewai install
 crewai run
 ```
 

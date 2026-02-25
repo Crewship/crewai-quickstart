@@ -1,0 +1,9 @@
+[deployment]
+framework = "crewai"
+entrypoint = "crewship_quickstart.crew:CrewshipQuickstartCrew"
+profile = "slim"
+python = "3.11"
+
+[build]
+exclude = [ "tests" ]
+
